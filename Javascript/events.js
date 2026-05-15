@@ -13,6 +13,7 @@ btnMakeBlue.onclick = function makeblue() {
     document.body.style.backgroundColor = 'blue';
 }
 
+// option 3 different version
 
   const btnMakeGreen = document.getElementById('btn-make-green');
         // console.log(btnMakeGreen);

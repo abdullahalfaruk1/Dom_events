@@ -29,9 +29,18 @@
 
     <br>
     <button id="btn-make-green">MAKE GREEN</button>
+    <br>
+
+    <!-- Option 4 : addEventListener -->
+    <button id="btn-make-pink">MAKE PINK</button>
+
 
     <script>
-      
+        // document.getElementById('btn-make-pink').addEventListener('event type', handler)
+        // document.getElementById('btn-make-pink').addEventListener('click', function makePink() {})
+        document.getElementById('btn-make-pink').addEventListener('click', function makePink() {
+            document.body.style.backgroundColor = 'pink';
+        })
 
     </script>
 
