@@ -17,8 +17,22 @@
     <input type="text">
     <button onclick="console.log(63)">Another Button</button>
 
+    <br>
+
+    <!-- option 2 for dom  event handaler -->
+
     <button onclick="makeYellow()">Make Yellow</button>
     <button onclick="makeRed()">Make Red</button>
+    <br>
+
+    <button id="btn-make-blue">MAKE BLUE</button>
+    <script>
+        const btnMakeBlue = document.getElementById('btn-make-blue');
+        // console.log(btnMakeBlue);
+        btnMakeBlue.onclick = function(){
+            document.body.style.backgroundColor = 'blue';
+        }
+    </script>
 
     <script src="./Javascript/events.js"></script>
 
