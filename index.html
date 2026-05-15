@@ -34,6 +34,9 @@
     <!-- Option 4 : addEventListener -->
     <button id="btn-make-pink">MAKE PINK</button>
 
+    <br>
+    <button id="btn-make-gold">MAKE GOLD</button>
+
 
     <script>
         // document.getElementById('btn-make-pink').addEventListener('event type', handler)
@@ -42,6 +45,10 @@
             document.body.style.backgroundColor = 'pink';
         })
 
+          document.getElementById('btn-make-gold')
+          .addEventListener('click', function () {
+            document.body.style.backgroundColor = 'goldenrod';
+        })
     </script>
 
     <script src="./Javascript/events.js"></script>
